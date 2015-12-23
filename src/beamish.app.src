@@ -1,0 +1,11 @@
+{application, beamish,
+ [
+  {description, "Useful BEAM library"},
+  {vsn, {cmd, "echo `cat APP_VERSION`"}},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
